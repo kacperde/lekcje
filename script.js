@@ -17,7 +17,7 @@ function sortowanie()
         document.getElementById('liczba3.3').innerHTML = "Liczba 3 = " + liczba3;
     
         tab = [liczba1,liczba2,liczba3];
-        wynik = tab.sort();
+        wynik = tab.sort(function(a, b){return a-b});
     
         document.getElementById('sort').innerHTML = "Posortowane liczby:" + wynik;
     }
