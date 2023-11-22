@@ -19,6 +19,6 @@ function sortowanie()
         tab = [liczba1,liczba2,liczba3];
         wynik = tab.sort(function(a, b){return a-b});
     
-        document.getElementById('sort').innerHTML = "Posortowane liczby:" + wynik;
+        document.getElementById('sort').innerHTML = "Posortowane liczby: " + wynik;
     }
 }
