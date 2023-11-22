@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #ffafcc;
+    background-color: #e9d8a6;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -21,7 +21,7 @@ form
 #liczby {
     width: 300px;
     height: 200px;
-    background-color: #cdb4db;
+    background-color: #ee9b00;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -32,7 +32,7 @@ form
 {
     width: 300px;
     height: 200px;
-    background-color: #cdb4db;
+    background-color: #bb3e03;
     margin-left: auto;
     margin-right: auto;
     display: grid;
