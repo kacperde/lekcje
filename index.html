@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="liczby">
+        <form autocomplete="off">
+            <label>Liczba 1:</label>
+            <input name="liczba1" id="liczba1">
+            <label>Liczba 2:</label>
+            <input name="liczba2" id="liczba2">
+            <label>Liczba 3:</label>
+            <input name="liczba3" id="liczba3">
+            <button type="button" onclick="sortowanie()">Policz</button>
+        </form>
+    </div>
+    <div id="wynik">
+        <span>Dane:</span>
+        <p id="liczba1.1"></p>
+        <p id="liczba2.2"></p>
+        <p id="liczba3.3"></p>
+        <p id="sort"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
