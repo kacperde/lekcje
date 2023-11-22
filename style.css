@@ -1,1 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
 
+body {
+    background-color: #ffafcc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}  
+#liczby {
+    width: 300px;
+    height: 200px;
+    background-color: #cdb4db;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 200px;
+
+}
+#wynik
+{
+    width: 300px;
+    height: 200px;
+    background-color: #cdb4db;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-items: center;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+input
+{
+    width: 50%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+button
+{
+    width: 30%;
+    margin-top: 10px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+}
+button:hover
+{
+    cursor: pointer;
+}
